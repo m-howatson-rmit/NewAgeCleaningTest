@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* Background color for navbar and dropdown menus */
+
+/* 	Background Color #031444
+	Text color - #000
+
+*/
+
+.navbar-custom, .navbar-custom .dropdown-menu {
+
+    background-color: #031444;
+
+}
+
+/* Text color for navbar and dropdown menus */
+
+.navbar-custom .navbar-brand, .navbar-custom .navbar-text,
+
+.navbar-custom .navbar-nav .nav-link,
+
+.navbar-custom .dropdown-item {
+
+    color: #fff;
+
+}
+
+/* Background and text colors for current page link and links on hover and focus */
+
+.navbar-custom .nav-item.active .nav-link,
+
+.navbar-custom .nav-item:hover .nav-link,
+
+.navbar-custom .nav-item:focus .nav-link,
+
+.navbar-custom .dropdown-item:hover, 
+
+.navbar-custom .dropdown-item:focus {
+
+    background-color: #06247E;
+
+    color: #fff;
+
+}
+
+/* Border and text colors for menu icon on small screens */
+
+.custom-toggler.navbar-toggler {
+
+    border-color: #C3CBE3;
+
+    color: #fff;
+
+}
+
+/* Hamburger icon - use same rgb values as previous rule for stroke */
+
+.custom-toggler .navbar-toggler-icon {
+
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(195,203,227,0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+
+}
+
+.navbar-brand {
+	background-image: url(../Assetts/new_age_cleaning_white.svg);
+	background-repeat: no-repeat;
+	background-size: 69px auto;
+	padding-left: 78px;
+	padding-right: 30px;
+	background-clip: padding-box;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-position: 0% 40%;
+}
+#hero {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-right: 0px;
+	padding-bottom: 0px;
+}
+#hero h1 {
+	position: absolute;
+	color: rgba(255,255,255,1.00);
+	padding-left: 60px;
+	padding-right: 60px;
+	top: 26px;
+}
+#hero1 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#hero1 {
+	margin-left: 0px;
+}
